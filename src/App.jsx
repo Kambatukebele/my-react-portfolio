@@ -134,14 +134,46 @@ function App() {
       </section>
 
       {/* CONTACT SECTION */}
-      {/* <section className="contact">
+      <section className="contact">
         <div className="contact__wrapper">
-          <div className="contact__">
+          <div className="contact__block">
+            <h3 className="contact__block--title">CONTACT</h3>
+            <h3 className="contact__block--description">
+              Don't be shy! Hit me up!
+            </h3>
+          </div>
+          <div className="contact__icons">
+            <div className="contact__block--icons">
+              <div className="contact__block--icon">
+                <div className="contact__block--icon-map">
+                  <i className="fa-solid fa-street-view"></i>
+                </div>
+                <div className="contact__block--icon-text">
+                  <h4>Prague, Czech Republic</h4>
+                </div>
+              </div>
 
+              <div className="contact__block--icon">
+                <div className="contact__block--icon-map">
+                  <i className="fa-solid fa-envelope"></i>
+                </div>
+                <div className="contact__block--icon-text">
+                  <h4>kambacharles11@gmail.com</h4>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
 
-      </section> */}
+      {/* === FOOTER === */}
+      <footer className="footer">
+        <div className="footer__wrapper">
+          <div className="footer__text">
+            Copyright 2023. All rights reserved
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
