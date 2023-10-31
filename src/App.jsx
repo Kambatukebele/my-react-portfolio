@@ -7,19 +7,25 @@ import Stack from "./components/sectionStack/Stack";
 import About from "./components/about/About";
 import rental from "./assets/images/car-rental.webp";
 
+
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
+  // useState to Toggle the menu on small device
+    // const [isOpen, setIsOpen] = useState(false);
+    // const toggle = () => {
+    //   setIsOpen(!isOpen);
+    // };
+    const [isOpenCloseMenu, SetIsOpenCloseMenu] = useState(false);
+    const toggle = () => {
+      SetIsOpenCloseMenu (!isOpenCloseMenu)
+    }
 
   return (
     <div className="App">
       {/* === HEADER SECTION === */}
       {/* <Header isOpen={isOpen} toggle={toggle} /> */}
-      <Navigation />      
+      <Navigation isOpenCloseMenu = {isOpenCloseMenu} toggle = {toggle} />      
       {/* === HERO SECTION === */}
-      <header className="relative w-full h-screen lg:h-[100vh] bg-gray-50 lg:flex lg:justify-between lg:items-center">
+      <header className="relative w-full h-fit py-5 lg:h-[100vh] bg-gray-50 lg:flex lg:justify-between lg:items-center">
         <div className="w-[90%] mx-auto sm:w-[600px] md:w-[700px] lg:w-[900px] lg:flex lg:justify-between lg:items-center xl:w-[1220px]">
           <div className="lg:w-[450px] lg:h-[450px] xl:w-[600px]">
             {/* Title */}
