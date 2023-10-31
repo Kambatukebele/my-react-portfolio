@@ -5,15 +5,15 @@ const navLinks = [
     link: "/",
   },
   {
-    id: 1,
-    menu: "About",
-    link: "#about",
+    id: 2,
+    menu: "Portfolio",
+    link: "#portfolio",
   },
   {
-    id: 2,
-    menu: "Projects",
-    link: "#projects",
-  },
+    id: 3,
+    menu: "About Me",
+    link: "#aboutme",
+  },  
   {
     id: 4,
     menu: "Contact",

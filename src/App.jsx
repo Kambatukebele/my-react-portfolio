@@ -41,7 +41,7 @@ function App() {
         </div>
       </nav>
       {/* === HERO SECTION === */}
-      <header className="relative w-full h-screen lg:h-[70vh] bg-gray-50 lg:flex lg:justify-between lg:items-center">
+      <header className="relative w-full h-screen lg:h-[100vh] bg-gray-50 lg:flex lg:justify-between lg:items-center">
         <div className="w-[90%] mx-auto sm:w-[600px] md:w-[700px] lg:w-[900px] lg:flex lg:justify-between lg:items-center xl:w-[1220px]">
           <div className="lg:w-[450px] lg:h-[450px] xl:w-[600px]">
             {/* Title */}
