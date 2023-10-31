@@ -1,14 +1,10 @@
 import css from "./images/css.svg";
 import html from "./images/html.svg";
-import javascript from "./images/javascript.svg";
-import sass from "./images/sass.svg";
 import tailwind from "./images/tailwind.svg";
-import shopify from "./images/shopify.svg";
-import wordpress from "./images/wordpress.svg";
 import reactjs from "./images/reactjs.svg";
 import mysql from "./images/mysql.svg";
-import php from "./images/php.svg";
 import laravel from "./images/laravel.svg";
+import git from "./images/git-svgrepo-com.svg";
 
 const techStackIcons = [
   {
@@ -18,13 +14,13 @@ const techStackIcons = [
   },
   {
     id: 1,
-    nameStack: "PHP",
-    theImg: php,
+    nameStack: "MySql",
+    theImg: mysql,
   },
   {
     id: 2,
-    nameStack: "MySql",
-    theImg: mysql,
+    nameStack: "git",
+    theImg: git,
   },
   {
     id: 3,
@@ -33,8 +29,8 @@ const techStackIcons = [
   },
   {
     id: 4,
-    nameStack: "Javascript",
-    theImg: javascript,
+    nameStack: "Tailwind",
+    theImg: tailwind,
   },
   {
     id: 5,
@@ -45,27 +41,7 @@ const techStackIcons = [
     id: 6,
     nameStack: "HTML",
     theImg: html,
-  },
-  {
-    id: 7,
-    nameStack: "Tailwind",
-    theImg: tailwind,
-  },
-  {
-    id: 8,
-    nameStack: "SASS",
-    theImg: sass,
-  },
-  {
-    id: 9,
-    nameStack: "WordPress",
-    theImg: wordpress,
-  },
-  {
-    id: 10,
-    nameStack: "Shopify",
-    theImg: shopify,
-  },
+  }  
 ];
 
 export default techStackIcons;

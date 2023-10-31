@@ -3,17 +3,12 @@ import { useState } from "react";
 import Navigation from "./components/navigation/Navigation"
 import Hero from "./components/hero/Hero";
 import Header from "./components/header/Header";
-import Stack from "./components/sectionStack/Stack";
+import Stack from "./components/stack/Stack";
 import About from "./components/about/About";
 import rental from "./assets/images/car-rental.webp";
 
 
 function App() {
-  // useState to Toggle the menu on small device
-    // const [isOpen, setIsOpen] = useState(false);
-    // const toggle = () => {
-    //   setIsOpen(!isOpen);
-    // };
     const [isOpenCloseMenu, SetIsOpenCloseMenu] = useState(false);
     const toggle = () => {
       SetIsOpenCloseMenu (!isOpenCloseMenu)
@@ -28,32 +23,7 @@ function App() {
       <Header />
       {/* <Hero /> */}     
       {/* === TECH STACK SECTION === */}
-      {/* <Stack /> */}
-      <section className="hidden w-full lg:flex lg:justify-end lg:h-[120px] bg-gray-50">
-        <div className="w-[90%] mx-auto sm:w-[600px] md:w-[700px] lg:w-[900px] lg:flex lg:justify-between lg:items-center xl:w-[1220px]">
-          <div className="w-14 h-14 grayscale">
-            <img className="w-full h-full object-cover object-center" src="src/assets/images/laravel.svg" alt="laravel-logo" />
-          </div>
-          <div className="w-14 h-14 grayscale">
-            <img className="w-full h-full object-cover object-center" src="src/assets/images/mysql.svg" alt="mysql-logo" />
-          </div>
-          <div className="w-14 h-14 grayscale">
-            <img className="grayscale w-full h-full object-cover object-center" src="src/assets/images/git-svgrepo-com (1).svg" alt="git-logo" />
-          </div>
-          <div className="w-14 h-14 grayscale">
-            <img className="w-full h-full object-cover object-center" src="src/assets/images/reactjs.svg" alt="reactjs-logo" />
-          </div> 
-          <div className="w-14 h-14 grayscale">
-            <img className="w-full h-full object-cover object-center" src="src/assets/images/tailwind.svg" alt="tailwindcss-logo" />
-          </div>
-          <div className="w-14 h-14 grayscale">
-            <img className="w-full h-full object-cover object-center" src="src/assets/images/css.svg" alt="css-logo" />
-          </div>
-          <div className="w-14 h-14 grayscale">
-            <img className="w-full h-full object-cover object-center" src="src/assets/images/html.svg" alt="html-logo" />
-          </div>
-        </div>
-      </section>
+      <Stack />      
       {/* === PROJECTS & PORTFOLIO === */}
       <section className="w-full h-fit py-10 relative" id="projects">
         <div className="w-[90%] mx-auto sm:w-[600px] md:w-[700px] lg:w-[990px]">
