@@ -1,5 +1,6 @@
 import "./App.css";
 import { useState } from "react";
+import Navigation from "./components/navigation/Navigation"
 import Hero from "./components/hero/Hero";
 import Header from "./components/header/Header";
 import Stack from "./components/sectionStack/Stack";
@@ -16,30 +17,7 @@ function App() {
     <div className="App">
       {/* === HEADER SECTION === */}
       {/* <Header isOpen={isOpen} toggle={toggle} /> */}
-      <nav className="w-full block shadow-lg">
-        <div className="w-[90%] mx-auto sm:w-[600px] md:w-[700px] lg:w-[900px] xl:w-[1220px] flex justify-between items-center my-3 relative">
-          {/* Logo */}
-          <div className="block">
-            <a className="block font-bold uppercase text-xl text-blue-700" href="#">
-              Kamba
-            </a>
-          </div>
-          {/* Menu Links */}
-          <ul className="hidden absolute bg-gray-100 w-full top-9 lg:bg-white lg:flex lg:w-96 lg:justify-between lg:items-center lg:static">
-            <li className="block my-4 text-center text-sm"><a className="uppercase text-blue-700 font-medium" href="#">Home</a></li>
-            <li className="block my-4 text-center text-sm"><a className="uppercase text-blue-700 font-medium" href="#">Portfolio</a></li>
-            <li className="block my-4 text-center text-sm"><a className="uppercase text-blue-700 font-medium" href="#">About me</a></li>
-            <li className="block my-4 text-center text-sm"><a className="uppercase text-blue-700 font-medium" href="#">Contact me</a></li>
-          </ul>
-          {/* Small device Menu  */}
-          <div className="border border-blue-700 w-10 flex justify-center items-center cursor-pointer shadow-xl lg:hidden">
-               {/* Hamburger Menu */}
-              <i class="fa-solid fa-bars text-2xl text-blue-700 block"></i>
-              {/* Close Menu */}
-              <i class="fa-solid fa-xmark text-2xl text-blue-700 hidden"></i>
-          </div>   
-        </div>
-      </nav>
+      <Navigation />      
       {/* === HERO SECTION === */}
       <header className="relative w-full h-screen lg:h-[100vh] bg-gray-50 lg:flex lg:justify-between lg:items-center">
         <div className="w-[90%] mx-auto sm:w-[600px] md:w-[700px] lg:w-[900px] lg:flex lg:justify-between lg:items-center xl:w-[1220px]">
