@@ -5,17 +5,17 @@ const navLinks = [
     link: "/",
   },
   {
-    id: 2,
+    id: 1,
     menu: "Portfolio",
     link: "#portfolio",
   },
   {
-    id: 3,
+    id: 2,
     menu: "About Me",
     link: "#aboutme",
   },  
   {
-    id: 4,
+    id: 3,
     menu: "Contact",
     link: "#contact",
   },

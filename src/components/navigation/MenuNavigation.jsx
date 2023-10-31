@@ -1,9 +1,9 @@
 import React from 'react'
+import NavLinks from '../NavLinks'
 
 function MenuNavigation({ isOpenCloseMenu, toggle }) {
     const menuVisibilityClass = isOpenCloseMenu ? 'block' : 'hidden';
-
-  return (
+  return (   
     <>
         <ul className={`absolute z-50 h-fit bg-gray-50 w-full top-9 lg:flex lg:w-96 lg:justify-between lg:items-center lg:static ${menuVisibilityClass}`}>
         <li className="block my-4 text-center text-sm">
