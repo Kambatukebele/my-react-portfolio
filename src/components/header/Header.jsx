@@ -13,15 +13,15 @@ const Header = () => {
             </p>
             {/* Icons */}
             <div className="flex justify-center items-center my-3 lg:justify-start">
-              <a href="#" className="block"><i class="fa-brands fa-linkedin mx-1 text-blue-700 text-3xl cursor-pointer"></i></a>
-              <a href="#" className="block"><i class="fa-brands fa-github mx-1 text-blue-700 text-3xl cursor-pointer"></i></a>
+              <a href="https://www.linkedin.com/in/kamba-tukebele-516470b5/" className="block"><i class="fa-brands fa-linkedin mx-1 text-blue-700 text-3xl cursor-pointer"></i></a>
+              <a href="https://github.com/Kambatukebele" className="block"><i class="fa-brands fa-github mx-1 text-blue-700 text-3xl cursor-pointer"></i></a>
             </div>
             {/* Button */}
             <div className="min-w-[286px] my-5 borders flex-col h-[110px] flex justify-between items-center sm:flex-row sm:justify-center lg:justify-start">
-              <button className="block bg-gradient-to-r from-sky-500 to-indigo-500 hover:bg-gradient-to-l text-white text-base w-48 py-3 rounded-md font-normal transition delay-150 duration-300 ease-in-out sm:mr-2 lg:py-4">
+              <button className="block bg-gradient-to-r from-sky-500 to-indigo-500 hover:bg-gradient-to-l text-white text-base w-48 py-3 rounded-md font-normal transition delay-150 duration-300 ease-in-out sm:mr-2 lg:py-3">
                 <a className="uppercase" href="#">Download My CV</a>
               </button>
-              <button className="block border text-blue-700 border-blue-700 hover:bg-gradient-to-r from-sky-500 to-indigo-500  hover:text-white text-base w-48 py-3 rounded-md font-normal sm:mx-2 lg:py-4"><a className="uppercase" href="#">View my Youtube</a></button>
+              <button className="block border text-blue-700 border-blue-700 hover:bg-gradient-to-r from-sky-500 to-indigo-500  hover:text-white text-base w-48 py-3 rounded-md font-normal sm:mx-2 lg:py-3"><a className="uppercase" href="https://www.youtube.com/@webizycode">View my Youtube</a></button>
             </div>
           </div>
           <div className="w-[280px] h-[280px] mx-auto rounded-lg sm:w-[550px] sm:h-[350px] md:w-[650px] md:h-[450px] lg:w-[450px] lg:mx-0 xl:w-[600px]">

@@ -7,8 +7,8 @@ const Stack = () => {
                 {techStackIcons.map((icon) => {
                     const { id, nameStack, theImg } = icon;
                     return (
-                    <div className="w-14 h-14 grayscale">
-                    <img className="w-full h-full object-cover object-center" src={theImg} alt={nameStack} />
+                    <div className="w-14 h-14 grayscale" key={id}>
+                      <img className="w-full h-full object-cover object-center" src={theImg} alt={nameStack} />
                     </div>
                     );
                 })}
